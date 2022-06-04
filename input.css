@@ -2,17 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  h1 {
-    @apply text-3xl text-red-300;
-  }
-  h2 {
-    @apply text-xl;
-  }
+#hero {
+  background-image: url('../images/desktop/image-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@layer components {
-  .btn-blue {
-    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+@media (max-width: 576px) {
+  #hero {
+    background-image: url('../images/mobile/image-hero.jpg');
+    background-postion: center;
   }
 }

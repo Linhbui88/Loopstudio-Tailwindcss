@@ -7,15 +7,52 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&family=Source+Code+Pro:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css"
+  <link rel="stylesheet" href="css/style.css">
   <title>Simple Tailwind Starter</title>
 </head>
 <body>
-  <h1>HELLO WORLD</h1>
-  <h2>Tailwind is awesome</h2>
-  <button class="btn-blue">click</button>
-  <h1>hello</h1>
-  <h1>hello</h1>
-  <h1>hello</h1>
+  <!-- Hero Section -->
+  <section id="hero">
+    <!-- Hero Container -->
+    <div class="container max-w-6xl mx-auto px-6 py-12">
+      <!-- Nav/Logo -->
+      <nav class="flex items-center justify-between font-bold text-white">
+        <!-- logo -->
+        <img src="images/logo.svg" alt="logo">
+        <!-- Menu -->
+        <div class="hidden h-10 font-alata md:flex md:space-x-8">
+          <div class="group">
+            <a href="#">About</a>
+            <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+            </div>
+          </div>
+          <div class="group">
+            <a href="#">Careers</a>
+            <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+            </div>
+          </div>
+          <div class="group">
+            <a href="#">Events</a>
+            <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+            </div>
+          </div>
+          <div class="group">
+            <a href="#">Products</a>
+            <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+            </div>
+          </div>
+          <div class="group">
+            <a href="#">Support</a>
+            <div class="mx-2 group-hover:border-b group-hover:border-blue-50">
+            </div>
+          </div>
+          
+        </div>
+
+      </nav>
+    </div>
+
+  </section>
+  
 </body>
 </html>
