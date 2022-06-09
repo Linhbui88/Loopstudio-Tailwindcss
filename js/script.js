@@ -1,5 +1,4 @@
 import '../css/input.css'
-// import '../css/style.css'
 
 const btn = document.getElementById('menu-btn')
 const menu = document.getElementById('menu')
